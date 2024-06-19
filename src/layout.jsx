@@ -145,7 +145,7 @@ function Layout() {
           </button>
 
           <button onClick={toggle} className="md:hidden flex  px-3 py-6">
-            {open ? <X /> : <Menu />}
+            {open ? <X size={"2.5em"}/> : <Menu size={"2.5em"} />}
           </button>
         </div>
         {open && (
